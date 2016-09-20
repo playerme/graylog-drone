@@ -1,0 +1,7 @@
+[graylog]
+address = "127.0.0.1:12202"
+
+[collector]
+hostname = "localhost"
+
+# the rest of the config can go here, or in my same folder in conf.d/*.toml

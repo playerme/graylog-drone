@@ -1,0 +1,5 @@
+[logs.nginx]
+file = "/tmp/nginx-test.log"
+parser = "grok"
+pattern = "%{NGINX_TIME}"
+short_text = "http_request"

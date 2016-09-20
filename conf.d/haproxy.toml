@@ -1,0 +1,5 @@
+[logs.haproxy]
+file = "/tmp/haproxy-test.log"
+parser = "grok"
+pattern = "%{HAPROXY_HTTP}"
+short_text = "haproxy_request"

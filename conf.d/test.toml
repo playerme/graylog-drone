@@ -1,0 +1,6 @@
+[logs.test]
+file = "/tmp/helloworld"
+parser = "none"
+
+[logs.test]
+parser = "none"
