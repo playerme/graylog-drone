@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/hpcloud/tail"
 	flags "github.com/jessevdk/go-flags"
-	"github.com/player-me/graylog-drone"
+	"github.com/playerme/graylog-drone"
 	"log"
 	"runtime"
 	"sync"
